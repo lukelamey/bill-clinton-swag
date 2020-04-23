@@ -7,7 +7,7 @@ import Footer from '../../../components/footer';
 import { useEffect } from 'react';
 
 const Page = ({ swagId }) => {
-  const imageUrl = `https://s3.amazonaws.com/Clinton_Swag/${swagId}/swag.png`;
+  const imageUrl = `https://thehoya.com/wp-content/uploads/2019/09/19.09.13_usnews_GeorgetownUniversityInstagram.png`;
 
   // Precache the generated tshirt on the next page
   useEffect(() => {
